@@ -6,7 +6,6 @@ import Header from './assets/Componentes/Header.jsx';
 import Footer from './assets/Componentes/Footer.jsx';
 import Apresentacao from './assets/Componentes/Apresentacao.jsx';
 import Servicos from './assets/Componentes/Servicos.jsx';
-import "slick-carousel/slick/slick-theme.css";
 import Formulario from './assets/Componentes/Formulario.jsx';
 import AdminPage from './assets/Componentes/Adminpage.jsx';
 import { collection, getDocs } from "firebase/firestore";
