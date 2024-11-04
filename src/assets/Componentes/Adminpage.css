@@ -1,0 +1,82 @@
+/* AdminPage.css */
+.admin-container {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco */
+    min-height: 100vh;
+    color: #333; /* Cor do texto padrão */
+}
+
+.admin-container h2 {
+    text-align: center;
+    color: #c00; /* Título em vermelho */
+}
+
+.leads-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #333; /* Borda preta para a tabela */
+}
+
+.leads-table th,
+.leads-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.leads-table th {
+    background-color: #c00; /* Cabeçalho vermelho */
+    color: white; /* Texto branco */
+}
+
+.leads-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Linhas pares com fundo claro */
+}
+
+.leads-table tr:hover {
+    background-color: #ffcccc; /* Destaque em vermelho claro ao passar o mouse */
+}
+
+/* Estilos para a seção de adicionar imagem */
+.image-upload {
+    margin-top: 30px; /* Espaçamento acima */
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 2px solid #333; /* Borda preta */
+}
+
+.image-upload h3 {
+    text-align: center;
+    color: #c00; /* Título da seção em vermelho */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+.image-upload input[type="file"] {
+    width: 80%; /* Largura reduzida para dar espaço nas laterais */
+    margin: 10px auto; /* Margem automática para centralizar */
+    padding: 10px; /* Padding para o input */
+    border: 1px solid #c00; /* Borda vermelha */
+    border-radius: 4px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco */
+    display: block; /* Torna o input um bloco para centralizar */
+}
+
+.image-upload button {
+    padding: 10px 20px;
+    background-color: #c00; /* Fundo vermelho para o botão */
+    color: white; /* Texto branco */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: block; /* Para centralizar o botão */
+    margin: 0 auto; /* Centraliza o botão */
+}
+
+.image-upload button:hover {
+    background-color: #b30000; /* Vermelho mais escuro ao passar o mouse */
+}

@@ -1,0 +1,96 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.central-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+header, .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* Mantém o header acima do conteúdo */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 100px 20px 20px; /* Define um espaçamento no topo para o header */
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.service-item img {
+  width: 100%;
+  max-width: 250px; /* Define um tamanho máximo para imagens */
+  height: 150px; /* Define uma altura para imagens */
+  object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}

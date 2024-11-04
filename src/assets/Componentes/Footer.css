@@ -1,0 +1,33 @@
+/* assets/componentes/Footer.css */
+
+.footer {
+    background-color: #1a1a1a; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+    width: 100vw; /* Ocupe 100% da largura da tela */
+    position: relative; /* Permite que o footer se mova com o conteúdo */
+    bottom: 0; /* Mantém o footer na parte inferior, em relação ao conteúdo */
+    box-sizing: border-box; /* Garante que padding não aumente a largura */
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones */
+    gap: 20px; /* Espaçamento entre os ícones */
+}
+
+.icon {
+    width: 50px; /* Tamanho fixo do ícone */
+    height: 50px; /* Tamanho fixo do ícone */
+    border-radius: 50%; /* Bordas arredondadas */
+    background-color: red; /* Fundo vermelho dentro da borda */
+    padding: 5px; /* Espaço interno para a imagem */
+    object-fit: contain; /* Garante que a imagem mantenha suas proporções */
+    transition: transform 0.3s; /* Efeito de transição */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}

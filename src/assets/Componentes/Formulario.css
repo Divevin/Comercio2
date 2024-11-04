@@ -1,0 +1,54 @@
+/* assets/Componentes/Formulario.css */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95); /* Fundo branco quase opaco */
+    padding: 30px; /* Aumente o espaçamento interno */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+    width: 600px; /* Aumente a largura do formulário */
+    max-width: 90%; /* Limita a largura máxima */
+    margin: 20px auto; /* Centraliza o formulário na página */
+    font-family: 'Arial', sans-serif; /* Fonte do formulário */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Aumenta o espaço entre os campos */
+}
+
+label {
+    margin-bottom: 8px; /* Espaçamento entre o label e o input */
+    font-weight: bold; /* Destaca o texto do label */
+    color: #ffffff; /* Cor do texto do label */
+}
+
+input,
+textarea {
+    width: 100%; /* Largura total do campo */
+    padding: 12px; /* Aumenta o espaçamento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra interna sutil */
+}
+
+textarea {
+    resize: none; /* Impede o redimensionamento do textarea */
+    height: 120px; /* Aumenta a altura do textarea */
+}
+
+button {
+    padding: 12px; /* Aumenta o espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #ff0000; /* Cor do botão */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave para a cor do botão */
+}
+
+button:hover {
+    background-color: #cf6c6c; /* Cor do botão ao passar o mouse */
+}

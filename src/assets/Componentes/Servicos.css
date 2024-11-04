@@ -1,0 +1,52 @@
+/* Servicos.css */
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Espaçamento vertical */
+  }
+  
+  .servicos-grid {
+    display: grid; /* Usa grid para layout das imagens */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colunas responsivas */
+    gap: 20px; /* Espaçamento entre as imagens */
+    width: 100%; /* Garante que o grid ocupe a largura total */
+  }
+  
+  .service-item img {
+    width: 100%; /* A imagem ocupa toda a largura do item */
+    height: 200px; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao passar sobre a imagem */
+    object-fit: cover;
+    display: flex;
+  }
+  
+  /* Estilos para o modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+
+  .service-item img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
+    height: 200px; /* Defina uma altura fixa para garantir que todas as imagens tenham a mesma altura */
+    object-fit: cover; /* A imagem será redimensionada para preencher o contêiner, cortando as partes que excedem */
+    border-radius: 10px; /* Mantém bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao passar sobre a imagem */
+}

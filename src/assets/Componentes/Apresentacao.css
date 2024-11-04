@@ -1,0 +1,42 @@
+/* assets/componentes/Apresentacao.css */
+
+.apresentacao {
+    color: white; /* Cor do texto */
+    padding: 40px 20px; /* Espaçamento interno */
+    margin: 10px auto; /* Margem automática para centralizar */
+    max-width: 800px; /* Largura máxima da seção */
+    text-align: center; /* Centraliza o texto */
+    position: relative; /* Necessário para o efeito de fundo */
+    z-index: 1; /* Para garantir que o texto fique acima do fundo */
+}
+
+.apresentacao h2 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Margem abaixo do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para o título */
+}
+
+.apresentacao p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Altura da linha */
+    margin: 0; /* Remove margem padrão */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
+}
+
+/* Efeito de animação de entrada para a seção */
+.apresentacao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(26, 26, 26, 0.7); /* Cor de fundo escura com leve transparência */
+    z-index: -1; /* Coloca o fundo atrás do texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: opacity 0.5s; /* Efeito de transição */
+}
+
+.apresentacao:hover::before {
+    opacity: 0.9; /* Efeito ao passar o mouse */
+}

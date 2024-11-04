@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'slick';
+    src: url('/fonts/slick.woff2') format('woff2'),
+         url('/fonts/slick.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
