@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { collection, getDocs, addDoc } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { db, storage } from '../database/firebaseconfig.js';
-import './AdminPage.css';
+import './Adminpage.css';
 
 const AdminPage = ({ onAddImage }) => {
     const [leads, setLeads] = useState([]);
