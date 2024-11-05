@@ -3,7 +3,7 @@ import React from 'react';
 import './Footer.css'; // Certifique-se de que este arquivo CSS exista
 import facebook from  '../images/Facebook.png';
 import instagram from '../images/Instagram.png';
-import whatsapp from '../images/WhatsApp.png';
+import whatsapp from '../images/Whatsapp.png';
 
 const Footer = () => {
     return (
