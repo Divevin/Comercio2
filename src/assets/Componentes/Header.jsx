@@ -8,7 +8,7 @@ function Header() {
             <div className="logo-container">
                 <img src={logo} alt="Logo" className="logo-image" />
             </div>
-            <button className="contact-button">Entre em Contato</button>
+            <button href="#form" className="contact-button">Entre em Contato</button>
         </header>
     );
 }
